@@ -1,9 +1,9 @@
 
-package assignment;
+package tester;
 
 import java.util.Scanner;
 
-public class SimpleCalculator {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -83,5 +83,3 @@ public class SimpleCalculator {
     }
 
 }
-SimpleCalculator.java
-Displaying SimpleCalculator.java.
