@@ -7,19 +7,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        char operator;
-        double number1, number2;
+        double number2;
 
         // create an object of Scanner class
         Scanner input = new Scanner(System.in);
 
         // ask users to enter operator
         System.out.println("Choose an operator: +, -, *, or /");
-        operator = input.next().charAt(0);
+        char operator = input.next().charAt(0);
 
         // ask users to enter numbers
         System.out.println("Enter first number [0-100]:");
-        number1 = input.nextDouble();
+        double number1 = input.nextDouble();
 
         System.out.println("Enter second number [0-100]:");
         number2 = input.nextDouble();
@@ -32,7 +31,7 @@ public class Main {
     public static String calculate(char operator, double number1, double number2) {
 
         double result;
-        String print = " ";
+        String print;
         switch (operator) {
 
             // performs addition between numbers
